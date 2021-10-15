@@ -1,0 +1,31 @@
+{
+    "id": "GPMIMERG",
+    "name": "GPMIMERG",
+    "type": "raster",
+    "swatch": {
+        "color": "#189C54",
+        "name": "Dark Green"
+    },
+    "source": {
+        "type": "raster",
+        "tiles": [
+            "{titiler_server_url}/cog/tiles/WebMercatorQuad/{z}/{x}/{y}@1x?url=s3://eis-pilot-dashboard-datasets/3B-MO.MS.MRG.3IMERG.20200501-S000000-E235959.05.V06B.HDF5.tif?resampling_method=nearest&bidx=1&rescale=0%2C1.6860897541046143"
+        ]
+    },
+    "legend": {
+        "type": "gradient-adjustable",
+        "min": "-20000",
+        "max": "0",
+        "stops": [
+            "#313695",
+            "#588cbf",
+            "#a3d2e5",
+            "#e8f6e8",
+            "#fee89c",
+            "#fba55c",
+            "#e24932"
+        ]
+    },
+    "info": ""
+  }
+  
