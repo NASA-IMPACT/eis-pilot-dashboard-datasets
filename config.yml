@@ -2,6 +2,6 @@ BUCKET: eis-pilot-dashboard-datasets
 DATASET_METADATA_FILENAME: dataset-metadata.json
 DATASETS:
 - MOD13A1.006.json
-- GPMIMERG.json
+- gpmimerg.json
 SITES:
 - example
